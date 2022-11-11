@@ -1,0 +1,41 @@
+.message {
+
+}
+
+.imageAndText {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 150px;
+}
+
+.imageAndText img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin: 0 0 10px 10px;
+}
+
+.text {
+    background-color: blue;
+    color: #DDEEFF;
+    width: 150px;
+    border-radius: 3px;
+}
+
+.text:after {
+
+}
+
+.name {
+    font-weight: bold;
+}
+
+.messageText {
+
+}
+
+.time {
+    font-weight: bold;
+    text-align: right;
+    margin-right: 150px;
+}
