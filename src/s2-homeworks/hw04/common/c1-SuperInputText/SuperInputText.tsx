@@ -54,13 +54,15 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
         + (error ? ' ' + s.errorInput : ' ' + s.superInput)
         + (className ? ' ' + s.className : '') // задача на смешивание классов
 
+    console.log(spanClassName)
+
     return (
         <div className={s.inputWrapper}>
             <input
                 id={id}
                 type={'text'}
                 onChange={onChangeCallback}
-                onKeyPress={onKeyPressCallback}
+                onKeyDown={onKeyPressCallback}
                 className={finalInputClassName}
                 {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
             />

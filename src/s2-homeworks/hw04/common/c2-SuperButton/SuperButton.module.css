@@ -1,16 +1,45 @@
 .button {
+    width: 132px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 24px;
 }
 
 .disabled {
+    font-weight: 600;
+    font-size: 14px;
+    background: #004D99;
+    opacity: 0.5;
+    border-radius: 3px;
 }
 
 .secondary {
+    color: #0066CC;
+    width: 176px;
+    height: 30px;
+    border: 1px solid #0066CC;
+    border-radius: 3px;
+    background-color: #F5F7FB;
 }
 
 .default {
+    width: 132px;
+    height: 30px;
+    color: #DDEEFF;
+    font-weight: 600;
+    border: none;
+    font-size: 14px;
+    background: #0066CC;
+    border-radius: 3px;
 }
 
 .red {
+    background: #CC1439;
+    border-radius: 3px;
+    border: red;
 }
 
 .default:hover {
