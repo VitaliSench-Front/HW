@@ -1,16 +1,21 @@
 .input:focus {
+    border: 2px solid #D1D1D1;
+    border-radius: 5px;
+    outline: none;
 }
 
 .input {
-    position: absolute;
-    width: 372px;
+    width: 276px;
     height: 36px;
 }
 
 .inputWrapper {
+
 }
 
 .superInput {
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .errorInput {
